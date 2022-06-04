@@ -1,8 +1,4 @@
 table { border-collapse: collapse }
 td, th { border: 1px solid; text-align: right}
-#etag1 {
-    background-color: red;
-    }
-#edge2 {
-background-color: green;
-}
+td:nth-child(2) { background:red}
+td:last-child { background: green }
